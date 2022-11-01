@@ -69,11 +69,11 @@ export default function App() {
         },
       ]
   return (
-    <View  style={[styles.header, styles]}>
+    <View  style={styles}>
 
-      {/* <Text>App</Text>
+      <Text>App</Text>
       <Home Name={54} />
-     */}
+    
      
     </View>
   )
@@ -83,6 +83,6 @@ export default function App() {
 const styles = StyleSheet.create({
 
   MainContainer:{
-    
+    flex : 1,  
   }
 })
