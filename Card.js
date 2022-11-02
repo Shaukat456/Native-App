@@ -13,13 +13,16 @@
 //   return (
     
 //     <View style={styles.container}>
-//       <FlatList  data={ users} renderItem={({item, index, separators})=>{
+//       <FlatList  data={users} renderItem={({item, index, separators})=>{
 //         console.log(separators)
-//         console.log(index)
+
 //         return (
 //       <>
-//         <div style={styles.container }> {item.name}  </div>
-//          {/* <div> {index} </div> */}
+//         <div style={styles.container }> 
+
+        
+//          </div>
+        
 //        </>
 //       )
 //       }}/>
@@ -38,42 +41,3 @@
 //     justifyContent: 'center',
 //   },
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import { View, Text } from 'react-native'
-import React from 'react'
-import Home from './src/screens/Home'
-
-export default function App() {
-
-  const users=[
-        {
-          name:"shaukat"
-        },
-        {
-          name:"taha"
-        },
-      ]
-  return (
-    <View>
-      <Text>App</Text>
-      <Home Name={54} />
-
-    
-    </View>
-  )
-}
