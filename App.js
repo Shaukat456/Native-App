@@ -69,11 +69,20 @@ export default function App() {
         },
       ]
   return (
-    <View>
-      <Text>App</Text>
-      <Home Name={54} />
+    <View  style={[styles.header, styles]}>
 
-    
+      {/* <Text>App</Text>
+      <Home Name={54} />
+     */}
+     
     </View>
   )
 }
+
+
+const styles = StyleSheet.create({
+
+  MainContainer:{
+    
+  }
+})
